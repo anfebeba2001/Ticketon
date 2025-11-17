@@ -28,7 +28,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       
-      #Step 3: Build and test with Gradle
-      - name: Build and Test with Gradle
+      #Step 3: Build and test with Maven
+      - name: Build and Test with Maven
         run: ./mvnw clean package
     
